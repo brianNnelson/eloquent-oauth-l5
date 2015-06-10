@@ -8,6 +8,8 @@
     }
     ],
     "license": "MIT",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
     "require": {
         "php": ">=5.4.0",
         "mvladk/eloquent-oauth": "dev-master",
