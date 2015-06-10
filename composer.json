@@ -10,9 +10,15 @@
     "license": "MIT",
     "require": {
         "php": ">=5.4.0",
-        "adamwathan/eloquent-oauth": "~7.0",
+        "mvladk/eloquent-oauth": "~7.0",
         "guzzlehttp/guzzle": "~5.0"
     },
+	"repositories": [
+		{
+            "type": "vcs",
+            "url": "https://github.com/mvladk/eloquent-oauth"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "AdamWathan\\EloquentOAuthL5\\": "src/"
